@@ -29,6 +29,8 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', ReactView.as_view(), name="anything"),
     path('imageconvert/', image_conv, name="image_conversion"),
+    # path('document_converter/', convert_document, name="document_conversion"),
+
 
 
 ]
